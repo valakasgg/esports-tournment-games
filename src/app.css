@@ -1,0 +1,180 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --background: #1f2528;
+    --primary: #363B3F;
+    --secondary: #2B3135;
+    --accent: #4E5356;
+    --text-white: #ffffff;
+    --text-grey: #A1A3A5;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text-white);
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: .875rem;
+}
+section {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.listSection {
+    margin-bottom: 1rem;
+}
+.listSection:last-child {
+    margin-bottom: 0;
+}
+.listHead {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--primary);
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    margin-bottom: 0;
+}
+.listBody {
+    background-color: var(--secondary);
+    font-weight: 500;
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.listHead > button {
+    cursor: pointer;
+    transition: .3s;
+}
+.listHead > div.teams:nth-child(3) {
+    display: flex;
+    justify-content: space-around;
+}
+.listHead > button:hover {
+    color: var(--text-white);
+}
+.listHead > button,
+.listHead > div {
+    padding: .75rem;
+    color: var(--text-grey);
+    background-color: unset;
+    border: unset;
+    text-transform: uppercase;
+    font-size: .75rem;
+    text-align: center;
+}
+.container {
+    max-width: 768px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.listSection ul {
+    margin: 0;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.listSection li {
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.listSearch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}.listSearch label {
+    margin-bottom: .5rem;
+}
+.listSearch input {
+    padding: .5rem .75rem;
+}
+.list > li {
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid var(--accent);
+}
+.list > li:first-child {
+    margin-top: 1rem;
+}
+.list > li:last-child {
+    margin-bottom: 0;
+    border: unset;
+}
+.list > li,
+.items {
+    width: 100%;
+}
+.items > li {
+    width: 25%;
+}
+
+li.title,
+li.tournament {
+    color: var(--text-grey);
+}
+
+li.title,
+.listHead > button:nth-child(1),
+.listHead > div:nth-child(1) {
+    width: 15%;
+}
+li.time,
+.listHead > button:nth-child(2),
+.listHead > div:nth-child(2) {
+    width: 10%;
+}
+li.teams,
+.listHead > button:nth-child(3),
+.listHead > div:nth-child(3) {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+}
+li.tournament,
+.listHead > button:nth-child(4),
+.listHead > div:nth-child(4) {
+    width: 30%;
+}
+
+.teamItem li {
+    width: 33.333%;
+}
+.teams .teamItem:nth-child(2) li:nth-child(1) {
+    order: 3;
+}
+.teams .teamItem:nth-child(2) li:nth-child(2) {
+    order: 2;
+}
+.teams .teamItem:nth-child(2) li:nth-child(3) {
+    order: 1;
+}
+
+.teamItem .name {
+    width: 50%;
+}
+.teamItem .logo {
+    width: 30%;
+}
+.teamItem .score {
+    width: 20%;
+}
+.teams {
+    position: relative;
+}
+.listBody .teams::after {
+    content: url('./seperator.svg');
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+li.teams {
+    padding: 0 1rem;
+}
