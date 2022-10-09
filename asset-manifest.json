@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/esports-tournment-games/static/css/main.ed1ac773.chunk.css",
+    "main.js": "/esports-tournment-games/static/js/main.c4ee29c6.chunk.js",
+    "main.js.map": "/esports-tournment-games/static/js/main.c4ee29c6.chunk.js.map",
+    "runtime-main.js": "/esports-tournment-games/static/js/runtime-main.cab2aded.js",
+    "runtime-main.js.map": "/esports-tournment-games/static/js/runtime-main.cab2aded.js.map",
+    "static/js/2.995135ec.chunk.js": "/esports-tournment-games/static/js/2.995135ec.chunk.js",
+    "static/js/2.995135ec.chunk.js.map": "/esports-tournment-games/static/js/2.995135ec.chunk.js.map",
+    "index.html": "/esports-tournment-games/index.html",
+    "precache-manifest.a92876ba0be53281aed5a21ea0c85234.js": "/esports-tournment-games/precache-manifest.a92876ba0be53281aed5a21ea0c85234.js",
+    "service-worker.js": "/esports-tournment-games/service-worker.js",
+    "static/css/main.ed1ac773.chunk.css.map": "/esports-tournment-games/static/css/main.ed1ac773.chunk.css.map",
+    "static/js/2.995135ec.chunk.js.LICENSE.txt": "/esports-tournment-games/static/js/2.995135ec.chunk.js.LICENSE.txt",
+    "static/media/app.css": "/esports-tournment-games/static/media/seperator.40d69379.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.cab2aded.js",
+    "static/js/2.995135ec.chunk.js",
+    "static/css/main.ed1ac773.chunk.css",
+    "static/js/main.c4ee29c6.chunk.js"
+  ]
+}
